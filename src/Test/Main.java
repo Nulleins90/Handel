@@ -4,7 +4,7 @@ public class Main {
     
     public static void main(String[] args) {
 		Aktien foo = new Aktien(3, 5);
-        System.out.println(foo.berechneWert());
+        foo.wertAusgabe();
 	}
     
 }

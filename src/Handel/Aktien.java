@@ -3,6 +3,7 @@ package src.Handel;
 public class Aktien extends Waren {
     private int stückpreis;
     private int anzahl;
+    private String name = "Aktien";
 
 
     public Aktien(int stückpreis, int anzahl) {
@@ -20,7 +21,7 @@ public class Aktien extends Waren {
     @Override
     public void wertAusgabe() {
         String ausgabe;
-        ausgabe = "Wert der Aktien ist $ " + berechneWert() + ".";
+        ausgabe = "Wert der " + name + " ist $" + berechneWert() + ".";
         System.out.println(ausgabe);
     }    
 
