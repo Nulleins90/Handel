@@ -1,4 +1,4 @@
-package Handel;
+package src.Handel;
 
 public class Rohstoffe {
     
